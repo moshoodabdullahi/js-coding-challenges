@@ -16,7 +16,7 @@
 - Clone the project
 
 ```bash
-git clone https://github.com/user/js-template.git
+git clone https://github.com/user/js-coding-challenges.git
 
 ```
 
