@@ -2,9 +2,10 @@
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
@@ -80,9 +81,9 @@ yarn axe
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@moshoodabdullahi](https://github.com/moshoodabdullahi)
+- Linkedin: [@moshoodabdullahi](https://www.linkedin.com/in/moshoodabdullahi/)
+- FreeCodeCamp: [@moshoodabdullahi](https://www.freecodecamp.org/moshoodabdullahi)
 
 ## 🤝 Contributing
 
@@ -96,9 +97,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [FCC](https://www.freecodecamp.org/learn/)
 
 ## 📝 License
 
