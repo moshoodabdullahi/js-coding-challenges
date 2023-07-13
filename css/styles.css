@@ -1,0 +1,149 @@
+/* Style for the navigation bar */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style for the main content */
+main {
+  margin: 20px;
+}
+
+
+/* Define base styles */
+{
+  background-color: #f7fafc;
+  color: #4a5568;
+  padding: 1rem;
+}
+
+/* Improve contrast and accessibility */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #1a202c;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 1rem;
+}
+
+ul,
+ol {
+  margin-left: 2rem;
+  list-style: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+blockquote {
+  border-left: 4px solid #cbd5e0;
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+pre {
+  background-color: #edf2f7;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+}
+
+code {
+  font-family: monospace;
+  background-color: #e2e8f0;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  color: #1a202c;
+}
+
+iframe {
+  width: 100%;
+}
+
+a {
+  color: #3182ce;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}

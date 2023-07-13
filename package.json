@@ -1,0 +1,36 @@
+{
+  "name": "js-template",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "markdown-it": "^13.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": "please-use-yarn"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "3.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "format": "npx prettier  --write \"**/*.{html,json,md,yaml,yml}\"",
+    "format:check": "npx prettier  --check \"**/*.{html,json,md,yaml,yml}\"",
+    "eslint": "npx eslint . --fix",
+    "eslint:check": "npx eslint .",
+    "build": "node generate-html.js"
+  },
+  "lint-staged": {
+    "*.{html,js,json,md,yml,css}": "prettier  --write",
+    "*.js": "eslint"
+  }
+}
