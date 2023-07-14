@@ -4,7 +4,6 @@
 
 - Linters
   - [Prettier](https://prettier.io/),
-  - [Stylelint](https://stylelint.io/).
 - GitHub Action
 
 ## Live Demo
