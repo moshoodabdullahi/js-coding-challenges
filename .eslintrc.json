@@ -11,7 +11,7 @@
   "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "plugins": ["prettier"],
   "rules": {
-    "no-console": "error",
+    "no-console": "warn",
     "prefer-destructuring": ["error", { "object": true, "array": false }]
   },
   "ignorePatterns": ["dist/", "build/", "axe-check.js"]
