@@ -2,4 +2,4 @@ const magic = () => {
   return new Date();
 };
 
-magic();
+console.log(magic());
