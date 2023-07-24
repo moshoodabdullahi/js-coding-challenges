@@ -6,7 +6,6 @@ function freezeObj() {
   try {
     MATH_CONSTANTS.PI = 99;
   } catch (ex) {
-    // eslint-disable-next-line no-console
     console.log(ex);
   }
   return MATH_CONSTANTS.PI;
