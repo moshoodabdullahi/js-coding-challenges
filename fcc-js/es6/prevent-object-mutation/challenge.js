@@ -11,4 +11,4 @@ function freezeObj() {
   return MATH_CONSTANTS.PI;
 }
 // eslint-disable-next-line no-unused-vars
-const PI = freezeObj();
+console.log(freezeObj());

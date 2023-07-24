@@ -5,4 +5,4 @@ function editInPlace() {
   s[2] = 7;
   return [s];
 }
-editInPlace();
+console.log(editInPlace());
