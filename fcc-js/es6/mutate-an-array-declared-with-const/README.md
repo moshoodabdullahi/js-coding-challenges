@@ -22,3 +22,15 @@ As you can see, you can mutate the object `[5, 6, 7]` itself and the variable s 
 ---
 
 An array is declared as const `s = [5, 7, 2]`. Change the array to `[2, 5, 7]` using various element assignments.
+
+---
+
+## Tests
+
+You should not replace `const` keyword.
+
+`s` should be a constant variable (by using `const`).
+
+You should not change the original array declaration.
+
+`s` should be equal to `[2, 5, 7]`.

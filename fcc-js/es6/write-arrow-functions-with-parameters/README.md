@@ -27,3 +27,17 @@ multiplier(4, 2);
 ---
 
 Rewrite the `myConcat` function which appends contents of `arr2` to `arr1` so that the function uses arrow function syntax.
+
+---
+
+## Tests
+
+You should replace the `var` keyword.
+
+`myConcat` should be a constant variable (by using `const`).
+
+`myConcat` should be an arrow function with two parameters
+
+`myConcat()` should return `[1, 2, 3, 4, 5]`.
+
+The `function` keyword should not be used.
