@@ -1,1 +1,5 @@
-// Solve the challenge in this JavaScript file
+const magic = () => {
+  return new Date();
+};
+
+console.log(magic());
