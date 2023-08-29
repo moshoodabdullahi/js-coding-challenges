@@ -32,6 +32,6 @@ Copy all contents of `arr1` into another array `arr2` using the spread operator.
 
 ## Tests
 
-`arr2` should be correct copy of `arr1`.
-`...` spread operator should be used to duplicate `arr1`.
-`arr2` should remain unchanged when `arr1` is changed.
+- `arr2` should be correct copy of `arr1`.
+- `...` spread operator should be used to duplicate `arr1`.
+- `arr2` should remain unchanged when `arr1` is changed.

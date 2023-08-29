@@ -24,7 +24,7 @@ Replace the two assignments with an equivalent destructuring assignment. It shou
 
 ## Tests
 
-You should remove the ES5 assignment syntax.
-You should use destructuring to create the `highToday` variable.
-You should use destructuring to create the `highTomorrow` variable.
-`highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.
+- You should remove the ES5 assignment syntax.
+- You should use destructuring to create the `highToday` variable.
+- You should use destructuring to create the `highTomorrow` variable.
+- `highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.

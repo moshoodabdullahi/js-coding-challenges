@@ -23,6 +23,6 @@ Modify the function `increment` by adding default parameters so that it will add
 
 ## Tests
 
-The result of `increment(5, 2)` should be `7`.
-The result of `increment(5)` should be `6`.
-A default parameter value of `1` should be used for `value`.
+- The result of `increment(5, 2)` should be `7`.
+- The result of `increment(5)` should be `6`.
+- A default parameter value of `1` should be used for `value`.

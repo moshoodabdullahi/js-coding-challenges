@@ -31,7 +31,7 @@ Replace the two assignments with an equivalent destructuring assignment. It shou
 
 ## Tests
 
-You should remove the ES5 assignment syntax.
-You should use destructuring to create the `today` variable.
-You should use destructuring to create the `tomorrow` variable.
-`today` should be equal to `77` and `tomorrow` should be equal to `80`.
+- You should remove the ES5 assignment syntax.
+- You should use destructuring to create the `today` variable.
+- You should use destructuring to create the `tomorrow` variable.
+- `today` should be equal to `77` and `tomorrow` should be equal to `80`.
