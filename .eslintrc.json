@@ -14,7 +14,14 @@
     "no-console": "warn",
     "no-unused-vars": "warn",
     "no-plusplus": "warn",
-    "prefer-destructuring": ["error", { "object": true, "array": false }]
+    "one-var": "warn",
+    "prefer-destructuring": [
+      "error",
+      {
+        "object": true,
+        "array": false
+      }
+    ]
   },
   "ignorePatterns": ["dist/", "build/", "axe-check.js"]
 }
