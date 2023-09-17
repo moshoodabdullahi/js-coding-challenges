@@ -1,1 +1,3 @@
-// Solve the challenge in this JavaScript file
+let a = 8;
+let b = 6;
+[a, b] = [b, a];
