@@ -12,12 +12,12 @@
   "plugins": ["prettier"],
   "rules": {
     "no-console": "warn",
-    "no-unused-vars": "warn",
-    "no-plusplus": "warn",
-    "no-underscore-dangle": "warn",
-    "no-setter-return": "warn",
-    "no-return-assign": "warn",
-    "no-unused-expressions": "warn",
+    // "no-unused-vars": "warn",
+    // "no-plusplus": "warn",
+    // "no-underscore-dangle": "warn",
+    // "no-setter-return": "warn",
+    // "no-return-assign": "warn",
+    // "no-unused-expressions": "warn",
     "prefer-destructuring": ["error", { "object": true, "array": false }]
   },
   "ignorePatterns": ["dist/", "build/", "axe-check.js"]

@@ -1,7 +1,1 @@
-```
-<html>
-  <body>
-    <script type="module" src="index.js"></script>
-  </body>
-</html>
-```;
+// Solve the challenge in this JavaScript file
