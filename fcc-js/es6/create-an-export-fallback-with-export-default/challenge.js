@@ -1,1 +1,7 @@
-// Solve the challenge in this JavaScript file
+export function subtract(x, y) {
+  return x - y;
+}
+
+export default function subSubtract(x, y) {
+  return x - y;
+}
