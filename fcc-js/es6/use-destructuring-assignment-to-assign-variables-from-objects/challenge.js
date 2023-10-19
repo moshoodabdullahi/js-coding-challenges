@@ -5,3 +5,5 @@ const HIGH_TEMPERATURES = {
 };
 
 const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
+
+console.log(highToday, highTomorrow);

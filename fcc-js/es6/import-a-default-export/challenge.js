@@ -1,1 +1,3 @@
-// Solve the challenge in this JavaScript file
+import subtract from './math_functions.js';
+
+subtract(7, 4);
