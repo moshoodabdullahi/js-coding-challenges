@@ -1,4 +1,4 @@
-import { uppercaseString, lowercaseString } from './string_functions.js';
+import { uppercaseString, lowercaseString } from './string_functions';
 
 uppercaseString('hello');
 lowercaseString('WORLD!');
