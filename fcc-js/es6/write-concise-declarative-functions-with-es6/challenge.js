@@ -2,7 +2,7 @@ const bicycle = {
   gear: 2,
   setGear(newGear) {
     this.gear = newGear;
-    return this.gear;
+    return newGear;
   },
 };
 bicycle.setGear(3);

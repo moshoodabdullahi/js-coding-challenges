@@ -1,1 +1,4 @@
-// Solve the challenge in this JavaScript file
+import { uppercaseString, lowercaseString } from './string_functions';
+
+uppercaseString('hello');
+lowercaseString('WORLD!');

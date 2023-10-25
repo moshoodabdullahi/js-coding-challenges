@@ -7,6 +7,7 @@ In ES5, an object can be created by defining a `constructor` function and using 
 In ES6, a `class` declaration has a `constructor` method that is invoked with the `new` keyword. If the `constructor` method is not explicitly defined, then it is implicitly defined with no arguments.
 
 ```js
+// Explicit constructor
 class SpaceShuttle {
   constructor(targetPlanet) {
     this.targetPlanet = targetPlanet;
@@ -16,6 +17,7 @@ class SpaceShuttle {
   }
 }
 
+// Implicit constructor
 class Rocket {
   launch() {
     console.log('To the moon!');
