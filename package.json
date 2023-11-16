@@ -18,6 +18,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^13.0.3",
     "prettier": "3.0.0"
   },
@@ -27,7 +29,8 @@
     "format:check": "npx prettier  --check \"**/*.{html,json,md,yaml,yml}\"",
     "eslint": "npx eslint . --fix",
     "eslint:check": "npx eslint .",
-    "build": "node generate-html.js"
+    "build": "node generate-html.js",
+    "test": "jest"
   },
   "lint-staged": {
     "*.{html,js,json,md,yml,css}": "prettier  --write",

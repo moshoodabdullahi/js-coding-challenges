@@ -21,7 +21,7 @@ solveMeFirst has the following parameters:
 
 Returns
 
--- int: the sum of `a `and `b`
+- int: the sum of `a `and `b`
 
 **Constraints**
 
