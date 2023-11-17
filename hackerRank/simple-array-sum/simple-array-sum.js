@@ -1,6 +1,8 @@
 const simpleArraySum = (ar) => {
-  let sumOfArray = ar;
-  sumOfArray = 1 + 2 + 3 + 4 + 10 + 11;
+  let sumOfArray = 0;
+  for (let i = 0; i < ar.length; i += 1) {
+    sumOfArray += ar[i];
+  }
   return sumOfArray;
 };
 
