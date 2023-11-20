@@ -12,8 +12,6 @@
   "plugins": ["prettier"],
   "rules": {
     "no-console": "warn",
-    "no-plusplus": "warn",
-    "no-unused-vars": "warn",
     "prefer-destructuring": ["error", { "object": true, "array": false }]
   },
   "ignorePatterns": ["dist/", "build/", "axe-check.js"]
