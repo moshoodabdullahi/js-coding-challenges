@@ -1,9 +1,7 @@
 const aVeryBigSum = (ar) => {
-  let addBigSum = 0;
-
-  ar.forEach((element) => {
-    addBigSum += element;
-  });
+  const addBigSum = ar.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+  }, 0);
 
   return addBigSum;
 };
