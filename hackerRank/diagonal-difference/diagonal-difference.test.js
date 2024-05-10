@@ -11,7 +11,7 @@ describe('With a three by three array where there is only one negative number', 
   });
 });
 
-describe('With a four by four array of Large Negative Data and Numerical Numbers', () => {
+describe('With a four by four array where there are large negative numbers and numbers', () => {
   test('returns 1', () => {
     const data = [
       [-1, 1, -7, -8],
@@ -23,7 +23,7 @@ describe('With a four by four array of Large Negative Data and Numerical Numbers
   });
 });
 
-describe('With a nine by nine array of A Very Large Data of mixed signs number', () => {
+describe('With a nine by nine array where there are mixed sign numbers', () => {
   test('returns 52', () => {
     const data = [
       [6, 6, 7, -10, 9, -3, 8, 9, -1],
@@ -40,7 +40,7 @@ describe('With a nine by nine array of A Very Large Data of mixed signs number',
   });
 });
 
-describe('With a five by five array of Negative Data and Numbers', () => {
+describe('With a five by five array where there are negative numbers ', () => {
   test('returns 3', () => {
     const data = [
       [-10, 3, 0, 5, -4],
@@ -53,7 +53,7 @@ describe('With a five by five array of Negative Data and Numbers', () => {
   });
 });
 
-describe('With a two by two array of Numerical Number and a Negative Number', () => {
+describe('With a two by two array of number and a negative number', () => {
   test('returns 13', () => {
     const data = [
       [6, 8],
@@ -63,7 +63,7 @@ describe('With a two by two array of Numerical Number and a Negative Number', ()
   });
 });
 
-describe('With a three by three array of Numerical Data where all value are the same', () => {
+describe('With a three by three array where all value are the same', () => {
   test('returns 0', () => {
     const data = [
       [1, 1, 1],
