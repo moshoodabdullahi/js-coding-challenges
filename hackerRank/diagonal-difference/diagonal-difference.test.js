@@ -1,7 +1,7 @@
 const diagonalDifference = require('./diagonal-difference');
 
-describe('Find the diagonalDifference of [11, 2, 4],[4, 5, 6],[10, 8, -12] to return 15', () => {
-  test('object assignment', () => {
+describe('With a three by three array where there is only one negative number', () => {
+  test('returns 15', () => {
     const data = [
       [11, 2, 4],
       [4, 5, 6],
@@ -11,8 +11,8 @@ describe('Find the diagonalDifference of [11, 2, 4],[4, 5, 6],[10, 8, -12] to re
   });
 });
 
-describe('Find the diagonalDifference of Large Negative Data and Numerical Numbers to return 1', () => {
-  test('object assignment', () => {
+describe('With a four by four array of Large Negative Data and Numerical Numbers', () => {
+  test('returns 1', () => {
     const data = [
       [-1, 1, -7, -8],
       [-10, -8, -5, -2],
@@ -23,8 +23,8 @@ describe('Find the diagonalDifference of Large Negative Data and Numerical Numbe
   });
 });
 
-describe('Find the diagonalDifference of A Very Large Negative Data to return 52', () => {
-  test('object assignment', () => {
+describe('With a nine by nine array of A Very Large Data of mixed signs number', () => {
+  test('returns 52', () => {
     const data = [
       [6, 6, 7, -10, 9, -3, 8, 9, -1],
       [9, 7, -10, 6, 4, 1, 6, 1, 1],
@@ -40,8 +40,8 @@ describe('Find the diagonalDifference of A Very Large Negative Data to return 52
   });
 });
 
-describe('Find the diagonalDifference of Negative Data and Numbers to return 3', () => {
-  test('object assignment', () => {
+describe('With a five by five array of Negative Data and Numbers', () => {
+  test('returns 3', () => {
     const data = [
       [-10, 3, 0, 5, -4],
       [2, -1, 0, 2, -8],
@@ -53,8 +53,8 @@ describe('Find the diagonalDifference of Negative Data and Numbers to return 3',
   });
 });
 
-describe('Find the diagonalDifference of [6, 8,],[-6, 9] to return 13', () => {
-  test('object assignment', () => {
+describe('With a two by two array of Numerical Number and a Negative Number', () => {
+  test('returns 13', () => {
     const data = [
       [6, 8],
       [-6, 9],
@@ -63,8 +63,8 @@ describe('Find the diagonalDifference of [6, 8,],[-6, 9] to return 13', () => {
   });
 });
 
-describe('Find the diagonalDifference of Numerical Data to return 0', () => {
-  test('object assignment', () => {
+describe('With a three by three array of Numerical Data where all value are the same', () => {
+  test('returns 0', () => {
     const data = [
       [1, 1, 1],
       [1, 1, 1],
