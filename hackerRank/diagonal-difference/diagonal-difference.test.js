@@ -11,7 +11,7 @@ describe('With a three by three array where there is only one negative number', 
   });
 });
 
-describe('With a four by four array where there are large negative numbers and numbers', () => {
+describe('With a four by four array including large negative numbers', () => {
   test('returns 1', () => {
     const data = [
       [-1, 1, -7, -8],
